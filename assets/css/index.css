@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    text-align: center !important;
+}
+#showCountDown {
+    font-size:8rem;
+    margin-top:4rem;
+    color:chocolate;
+}
+button {
+    color:white !important;
+    font-weight: bold !important;
+    letter-spacing: 0.5px;
+    transition-duration: 0.5s !important;
+}
+button i {
+    transition-duration: 0.5s;
+}
+button:hover i{
+    transform:rotate(180deg) !important;
+}
+h3 {
+    color:chocolate;
+    margin:30px 15px;
+    font-size:20px;
+    border:1px solid black;
+    padding:10px 20px;
+}
+#recordingList {
+    text-align: center;
+}
+#recordingList a {
+    display:inline-block;
+    margin:10px 0px;
+    font-size:12.5px !important;
+}
